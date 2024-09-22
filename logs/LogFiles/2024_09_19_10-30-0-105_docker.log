@@ -1,0 +1,232 @@
+2024-09-19T18:04:09.6682987Z Container start method called.
+2024-09-19T18:04:09.6926972Z Establishing network.
+2024-09-19T18:04:09.6931951Z Pulling image: appsvc/kudulite:bullseye_20240822.2.tuxprod.
+2024-09-19T18:04:38.8462353Z Image appsvc/kudulite:bullseye_20240822.2.tuxprod is pulled from registry 10.1.0.4:13209
+2024-09-19T18:04:39.0090700Z Container is starting.
+2024-09-19T18:04:39.0093871Z Establishing user namespace if not established already.
+2024-09-19T18:04:39.0095115Z Establishing network if not established already.
+2024-09-19T18:04:39.0095616Z Mounting volumes.
+2024-09-19T18:04:39.0183346Z Nested mountpoint 
+2024-09-19T18:04:39.0533821Z Nested mountpoint volatile/logs
+2024-09-19T18:04:39.0814424Z Nested mountpoint 
+2024-09-19T18:04:39.0850163Z Nested mountpoint 
+2024-09-19T18:04:39.0857383Z Nested mountpoint 
+2024-09-19T18:04:40.0261735Z Creating container.
+2024-09-19T18:04:40.0265137Z Creating pipes for streaming container io.
+2024-09-19T18:04:40.0273797Z Creating stdout named pipe at /podr/container/pipe/my-app_kudu_486407f1/stdout_4f4e292d2f5a4f94b1d47d5385716b72.
+2024-09-19T18:04:40.0279435Z Successfully created stdout named pipe at: /podr/container/pipe/my-app_kudu_486407f1/stdout_4f4e292d2f5a4f94b1d47d5385716b72.
+2024-09-19T18:04:40.0286419Z Opening named pipe /podr/container/pipe/my-app_kudu_486407f1/stdout_4f4e292d2f5a4f94b1d47d5385716b72 for reading in non-blocking mode.
+2024-09-19T18:04:40.0287191Z Successfully opened named pipe: /podr/container/pipe/my-app_kudu_486407f1/stdout_4f4e292d2f5a4f94b1d47d5385716b72.
+2024-09-19T18:04:40.0298693Z Successfully removed non-blocking flag from /podr/container/pipe/my-app_kudu_486407f1/stdout_4f4e292d2f5a4f94b1d47d5385716b72.
+2024-09-19T18:04:40.0299539Z Creating stderr named pipe at /podr/container/pipe/my-app_kudu_486407f1/stderr_b137e69d35124424ad19628836ef50a9.
+2024-09-19T18:04:40.0300819Z Successfully created stderr named pipe at: /podr/container/pipe/my-app_kudu_486407f1/stderr_b137e69d35124424ad19628836ef50a9.
+2024-09-19T18:04:40.0301379Z Opening named pipe /podr/container/pipe/my-app_kudu_486407f1/stderr_b137e69d35124424ad19628836ef50a9 for reading in non-blocking mode.
+2024-09-19T18:04:40.0302703Z Successfully opened named pipe: /podr/container/pipe/my-app_kudu_486407f1/stderr_b137e69d35124424ad19628836ef50a9.
+2024-09-19T18:04:40.0303398Z Successfully removed non-blocking flag from /podr/container/pipe/my-app_kudu_486407f1/stderr_b137e69d35124424ad19628836ef50a9.
+2024-09-19T18:04:40.0310485Z Creating container with image: appsvc/kudulite:bullseye_20240822.2.tuxprod from registry: 10.1.0.4:13209 and fully qualified image name: 10.1.0.4:13209/appsvc/kudulite:bullseye_20240822.2.tuxprod
+2024-09-19T18:04:56.1085563Z Starting container: my-app_kudu_486407f1.
+2024-09-19T18:04:56.2298458Z Starting watchers and probes.
+2024-09-19T18:04:56.3021514Z Starting metrics collection.
+2024-09-19T18:04:56.3089579Z Container is running.
+2024-09-19T18:04:56.4129231Z Container start method finished after 46742 ms.
+2024-09-19T18:48:56.2095038Z Container start method called.
+2024-09-19T18:48:56.2112033Z Establishing network.
+2024-09-19T18:48:56.2120404Z Pulling image: appsvc/kudulite:bullseye_20240822.2.tuxprod.
+2024-09-19T18:49:00.3771996Z Image appsvc/kudulite:bullseye_20240822.2.tuxprod is pulled from registry 10.1.0.6:13209
+2024-09-19T18:49:00.3785095Z Container is starting.
+2024-09-19T18:49:00.3790543Z Establishing user namespace if not established already.
+2024-09-19T18:49:00.3795152Z Establishing network if not established already.
+2024-09-19T18:49:00.3799365Z Mounting volumes.
+2024-09-19T18:49:00.3819114Z Nested mountpoint 
+2024-09-19T18:49:00.3862347Z Nested mountpoint volatile/logs
+2024-09-19T18:49:00.3894931Z Nested mountpoint 
+2024-09-19T18:49:00.3964235Z Nested mountpoint 
+2024-09-19T18:49:00.4008074Z Nested mountpoint 
+2024-09-19T18:49:00.4228109Z Creating container.
+2024-09-19T18:49:00.4238697Z Creating pipes for streaming container io.
+2024-09-19T18:49:00.4246643Z Creating stdout named pipe at /podr/container/pipe/my-app_kudu_913cc86d/stdout_50af611ada1d469780de7f8c9e6ad0fc.
+2024-09-19T18:49:00.4259832Z Successfully created stdout named pipe at: /podr/container/pipe/my-app_kudu_913cc86d/stdout_50af611ada1d469780de7f8c9e6ad0fc.
+2024-09-19T18:49:00.4272662Z Opening named pipe /podr/container/pipe/my-app_kudu_913cc86d/stdout_50af611ada1d469780de7f8c9e6ad0fc for reading in non-blocking mode.
+2024-09-19T18:49:00.4279533Z Successfully opened named pipe: /podr/container/pipe/my-app_kudu_913cc86d/stdout_50af611ada1d469780de7f8c9e6ad0fc.
+2024-09-19T18:49:00.4286704Z Successfully removed non-blocking flag from /podr/container/pipe/my-app_kudu_913cc86d/stdout_50af611ada1d469780de7f8c9e6ad0fc.
+2024-09-19T18:49:00.4294123Z Creating stderr named pipe at /podr/container/pipe/my-app_kudu_913cc86d/stderr_9f00f4ce1be1487c9117c26f3c93d450.
+2024-09-19T18:49:00.4305027Z Successfully created stderr named pipe at: /podr/container/pipe/my-app_kudu_913cc86d/stderr_9f00f4ce1be1487c9117c26f3c93d450.
+2024-09-19T18:49:00.4319229Z Opening named pipe /podr/container/pipe/my-app_kudu_913cc86d/stderr_9f00f4ce1be1487c9117c26f3c93d450 for reading in non-blocking mode.
+2024-09-19T18:49:00.4328445Z Successfully opened named pipe: /podr/container/pipe/my-app_kudu_913cc86d/stderr_9f00f4ce1be1487c9117c26f3c93d450.
+2024-09-19T18:49:00.4338627Z Successfully removed non-blocking flag from /podr/container/pipe/my-app_kudu_913cc86d/stderr_9f00f4ce1be1487c9117c26f3c93d450.
+2024-09-19T18:49:00.4348984Z Creating container with image: appsvc/kudulite:bullseye_20240822.2.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/kudulite:bullseye_20240822.2.tuxprod
+2024-09-19T18:49:00.7786883Z Starting container: my-app_kudu_913cc86d.
+2024-09-19T18:49:00.8210908Z Starting watchers and probes.
+2024-09-19T18:49:00.8629830Z Starting metrics collection.
+2024-09-19T18:49:00.8631961Z Container is running.
+2024-09-19T18:49:00.8722880Z Container start method finished after 4662 ms.
+2024-09-19T18:49:27.4094054Z Container is terminating. Grace period: 0 seconds.
+2024-09-19T18:49:27.4704538Z Stop and delete container. Retry count = 0
+2024-09-19T18:49:27.4732215Z Stopping container: my-app_kudu_486407f1.
+2024-09-19T18:49:27.5864187Z Deleting container: my-app_kudu_486407f1. Retry count = 0
+2024-09-19T18:49:27.9861249Z Container spec TerminationMessagePolicy  path 
+2024-09-19T18:49:28.0460289Z Container is terminated. Total time elapsed: 635 ms.
+2024-09-19T18:50:31.7822213Z Container start method called.
+2024-09-19T18:50:31.7827256Z Establishing network.
+2024-09-19T18:50:31.7838396Z Pulling image: appsvc/kudulite:bullseye_20240822.2.tuxprod.
+2024-09-19T18:50:34.3928926Z Container is starting.
+2024-09-19T18:50:34.3929636Z Establishing user namespace if not established already.
+2024-09-19T18:50:34.3930168Z Establishing network if not established already.
+2024-09-19T18:50:34.3931188Z Mounting volumes.
+2024-09-19T18:50:34.3933669Z Nested mountpoint 
+2024-09-19T18:50:34.3958648Z Nested mountpoint volatile/logs
+2024-09-19T18:50:34.3978686Z Nested mountpoint 
+2024-09-19T18:50:34.4089312Z Nested mountpoint 
+2024-09-19T18:50:34.4102676Z Nested mountpoint 
+2024-09-19T18:50:34.4355854Z Creating container.
+2024-09-19T18:50:34.4363775Z Creating pipes for streaming container io.
+2024-09-19T18:50:34.4369218Z Creating stdout named pipe at /podr/container/pipe/my-app_kudu_fc8c453e/stdout_f2c76edfc41b42e28332ab4a9b8b425b.
+2024-09-19T18:50:34.4379324Z Successfully created stdout named pipe at: /podr/container/pipe/my-app_kudu_fc8c453e/stdout_f2c76edfc41b42e28332ab4a9b8b425b.
+2024-09-19T18:50:34.4386853Z Opening named pipe /podr/container/pipe/my-app_kudu_fc8c453e/stdout_f2c76edfc41b42e28332ab4a9b8b425b for reading in non-blocking mode.
+2024-09-19T18:50:34.4393901Z Successfully opened named pipe: /podr/container/pipe/my-app_kudu_fc8c453e/stdout_f2c76edfc41b42e28332ab4a9b8b425b.
+2024-09-19T18:50:34.4400469Z Successfully removed non-blocking flag from /podr/container/pipe/my-app_kudu_fc8c453e/stdout_f2c76edfc41b42e28332ab4a9b8b425b.
+2024-09-19T18:50:34.4418382Z Creating stderr named pipe at /podr/container/pipe/my-app_kudu_fc8c453e/stderr_7238abd79f154758bd7a5308c185f036.
+2024-09-19T18:50:34.4423530Z Successfully created stderr named pipe at: /podr/container/pipe/my-app_kudu_fc8c453e/stderr_7238abd79f154758bd7a5308c185f036.
+2024-09-19T18:50:34.4428079Z Opening named pipe /podr/container/pipe/my-app_kudu_fc8c453e/stderr_7238abd79f154758bd7a5308c185f036 for reading in non-blocking mode.
+2024-09-19T18:50:34.4437244Z Successfully opened named pipe: /podr/container/pipe/my-app_kudu_fc8c453e/stderr_7238abd79f154758bd7a5308c185f036.
+2024-09-19T18:50:34.4443969Z Successfully removed non-blocking flag from /podr/container/pipe/my-app_kudu_fc8c453e/stderr_7238abd79f154758bd7a5308c185f036.
+2024-09-19T18:50:34.4451572Z Creating container with image: appsvc/kudulite:bullseye_20240822.2.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/kudulite:bullseye_20240822.2.tuxprod
+2024-09-19T18:50:34.6500235Z Starting container: my-app_kudu_fc8c453e.
+2024-09-19T18:50:34.6953958Z Starting watchers and probes.
+2024-09-19T18:50:34.6962401Z Starting metrics collection.
+2024-09-19T18:50:34.6970099Z Container is running.
+2024-09-19T18:50:34.7005756Z Container start method finished after 2918 ms.
+2024-09-19T18:50:42.0216288Z Failed to start kudu. Revert by stopping kudu.
+2024-09-19T18:50:42.0232449Z Container is terminating. Grace period: 0 seconds.
+2024-09-19T18:50:42.0280451Z Stop and delete container. Retry count = 0
+2024-09-19T18:50:42.0288628Z Stopping container: my-app_kudu_fc8c453e.
+2024-09-19T18:50:42.1241259Z Deleting container: my-app_kudu_fc8c453e. Retry count = 0
+2024-09-19T18:50:42.6073252Z Container spec TerminationMessagePolicy  path 
+2024-09-19T18:50:42.6081591Z Container is terminated. Total time elapsed: 584 ms.
+2024-09-19T18:50:42.7178046Z Kudu: my-app stopped.
+2024-09-19T18:51:02.7328308Z Container is terminating. Grace period: 0 seconds.
+2024-09-19T18:51:02.7353468Z Stop and delete container. Retry count = 0
+2024-09-19T18:51:02.7354028Z Stopping container: my-app_kudu_913cc86d.
+2024-09-19T18:51:02.8315920Z Deleting container: my-app_kudu_913cc86d. Retry count = 0
+2024-09-19T18:51:03.3908463Z Container spec TerminationMessagePolicy  path 
+2024-09-19T18:51:03.3922120Z Container is terminated. Total time elapsed: 659 ms.
+2024-09-19T18:51:13.652Z INFO  - Pulling image: myapp9000.azurecr.io/myapp9000:v1
+2024-09-19T18:51:14.046Z INFO  - v1 Pulling from myapp9000
+2024-09-19T18:51:14.057Z INFO  - a2318d6c47ec Already exists
+2024-09-19T18:51:14.083Z INFO  - 0fa26e0a6c77 Pulling fs layer
+2024-09-19T18:51:14.084Z INFO  - a657783e238b Pulling fs layer
+2024-09-19T18:51:14.085Z INFO  - b665d04ddefb Pulling fs layer
+2024-09-19T18:51:14.086Z INFO  - b71f8d04b7cc Pulling fs layer
+2024-09-19T18:51:14.087Z INFO  - 48eaca143019 Pulling fs layer
+2024-09-19T18:51:14.088Z INFO  - 2948bc527460 Pulling fs layer
+2024-09-19T18:51:14.246Z INFO  - 48eaca143019 Downloading 19KB / 19KB
+2024-09-19T18:51:14.246Z INFO  - 48eaca143019 Verifying Checksum
+2024-09-19T18:51:14.247Z INFO  - 48eaca143019 Download complete
+2024-09-19T18:51:14.248Z INFO  - b665d04ddefb Downloading 251B / 251B
+2024-09-19T18:51:14.249Z INFO  - b665d04ddefb Verifying Checksum
+2024-09-19T18:51:14.249Z INFO  - b665d04ddefb Download complete
+2024-09-19T18:51:14.255Z INFO  - b71f8d04b7cc Downloading 93B / 93B
+2024-09-19T18:51:14.256Z INFO  - b71f8d04b7cc Verifying Checksum
+2024-09-19T18:51:14.257Z INFO  - b71f8d04b7cc Download complete
+2024-09-19T18:51:14.399Z INFO  - 0fa26e0a6c77 Verifying Checksum
+2024-09-19T18:51:14.400Z INFO  - 0fa26e0a6c77 Download complete
+2024-09-19T18:51:14.400Z INFO  - 2948bc527460 Downloading 3MB / 3MB
+2024-09-19T18:51:14.403Z INFO  - 2948bc527460 Downloading 3MB / 3MB
+2024-09-19T18:51:14.404Z INFO  - 2948bc527460 Verifying Checksum
+2024-09-19T18:51:14.405Z INFO  - 2948bc527460 Download complete
+2024-09-19T18:51:14.521Z INFO  - a657783e238b Verifying Checksum
+2024-09-19T18:51:14.522Z INFO  - a657783e238b Download complete
+2024-09-19T18:51:15.692Z INFO  - 0fa26e0a6c77 Extracting 640KB / 3MB
+2024-09-19T18:51:15.825Z INFO  - 0fa26e0a6c77 Extracting 3MB / 3MB
+2024-09-19T18:51:15.826Z INFO  - 0fa26e0a6c77 Extracting 3MB / 3MB
+2024-09-19T18:51:16.068Z INFO  - 0fa26e0a6c77 Pull complete
+2024-09-19T18:51:16.712Z INFO  - a657783e238b Extracting 4MB / 14MB
+2024-09-19T18:51:16.915Z INFO  - a657783e238b Extracting 10MB / 14MB
+2024-09-19T18:51:17.019Z INFO  - a657783e238b Extracting 11MB / 14MB
+2024-09-19T18:51:17.307Z INFO  - a657783e238b Extracting 12MB / 14MB
+2024-09-19T18:51:17.495Z INFO  - a657783e238b Extracting 14MB / 14MB
+2024-09-19T18:51:17.496Z INFO  - a657783e238b Extracting 14MB / 14MB
+2024-09-19T18:51:17.958Z INFO  - a657783e238b Pull complete
+2024-09-19T18:51:17.978Z INFO  - b665d04ddefb Extracting 251B / 251B
+2024-09-19T18:51:18.053Z INFO  - b665d04ddefb Extracting 251B / 251B
+2024-09-19T18:51:18.214Z INFO  - b665d04ddefb Pull complete
+2024-09-19T18:51:18.243Z INFO  - b71f8d04b7cc Extracting 93B / 93B
+2024-09-19T18:51:18.292Z INFO  - b71f8d04b7cc Extracting 93B / 93B
+2024-09-19T18:51:18.429Z INFO  - b71f8d04b7cc Pull complete
+2024-09-19T18:51:18.467Z INFO  - 48eaca143019 Extracting 19KB / 19KB
+2024-09-19T18:51:18.564Z INFO  - 48eaca143019 Extracting 19KB / 19KB
+2024-09-19T18:51:18.699Z INFO  - 48eaca143019 Pull complete
+2024-09-19T18:51:18.927Z INFO  - 2948bc527460 Extracting 1MB / 3MB
+2024-09-19T18:51:19.110Z INFO  - 2948bc527460 Extracting 3MB / 3MB
+2024-09-19T18:51:19.351Z INFO  - 2948bc527460 Pull complete
+2024-09-19T18:51:19.404Z INFO  -  Digest: sha256:e6456769c268ee96b64094f3340bc59fb821ff4aed349278ea0875507afb4c78
+2024-09-19T18:51:19.424Z INFO  -  Status: Downloaded newer image for myapp9000.azurecr.io/myapp9000:v1
+2024-09-19T18:51:19.440Z INFO  - Pull Image successful, Time taken: 5 Seconds
+2024-09-19T18:51:19.462Z INFO  - Starting container for site
+2024-09-19T18:51:19.463Z INFO  - docker run -d --expose=8000 --name my-app_0_b24f04f2 -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=my-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8000 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=my-app-eeeahfc3cdcya4gh.westeurope-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=8d9e2a936c95dd849e4c0dae43b408c0ae869fcd34aeaf84a36fa1ee3cdf62cf myapp9000.azurecr.io/myapp9000:v1 
+2024-09-19T18:51:19.466Z INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2024-09-19T18:51:21.049Z INFO  - Initiating warmup request to container my-app_0_b24f04f2_msiProxy for site my-app
+2024-09-19T18:51:21.060Z INFO  - Container my-app_0_b24f04f2_msiProxy for site my-app initialized successfully and is ready to serve requests.
+2024-09-19T18:51:21.062Z INFO  - Initiating warmup request to container my-app_0_b24f04f2 for site my-app
+2024-09-19T18:51:21.090Z ERROR - Container my-app_0_b24f04f2 for site my-app has exited, failing site start
+2024-09-19T18:51:21.111Z ERROR - Container my-app_0_b24f04f2 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-09-19T18:51:21.194Z INFO  - Stopping site my-app because it failed during startup.
+2024-09-19T18:52:36.494Z INFO  - Pulling image: myapp9000.azurecr.io/myapp9000:v1
+2024-09-19T18:52:36.795Z INFO  - v1 Pulling from myapp9000
+2024-09-19T18:52:36.805Z INFO  -  Digest: sha256:e6456769c268ee96b64094f3340bc59fb821ff4aed349278ea0875507afb4c78
+2024-09-19T18:52:36.817Z INFO  -  Status: Image is up to date for myapp9000.azurecr.io/myapp9000:v1
+2024-09-19T18:52:36.932Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2024-09-19T18:52:37.015Z INFO  - Starting container for site
+2024-09-19T18:52:37.016Z INFO  - docker run -d --expose=8000 --name my-app_0_d6c7a5d7 -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=my-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8000 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=my-app-eeeahfc3cdcya4gh.westeurope-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=8d9e2a936c95dd849e4c0dae43b408c0ae869fcd34aeaf84a36fa1ee3cdf62cf myapp9000.azurecr.io/myapp9000:v1 
+2024-09-19T18:52:37.018Z INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2024-09-19T18:52:39.375Z INFO  - Initiating warmup request to container my-app_0_d6c7a5d7_msiProxy for site my-app
+2024-09-19T18:52:39.386Z INFO  - Container my-app_0_d6c7a5d7_msiProxy for site my-app initialized successfully and is ready to serve requests.
+2024-09-19T18:52:39.389Z INFO  - Initiating warmup request to container my-app_0_d6c7a5d7 for site my-app
+2024-09-19T18:52:54.883Z ERROR - Container my-app_0_d6c7a5d7 for site my-app has exited, failing site start
+2024-09-19T18:52:54.892Z ERROR - Container my-app_0_d6c7a5d7 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-09-19T18:52:57.418Z INFO  - Stopping site my-app because it failed during startup.
+2024-09-19T18:53:19.542Z INFO  - Pulling image: myapp9000.azurecr.io/myapp9000:v1
+2024-09-19T18:53:19.779Z INFO  - v1 Pulling from myapp9000
+2024-09-19T18:53:19.787Z INFO  -  Digest: sha256:e6456769c268ee96b64094f3340bc59fb821ff4aed349278ea0875507afb4c78
+2024-09-19T18:53:19.788Z INFO  -  Status: Image is up to date for myapp9000.azurecr.io/myapp9000:v1
+2024-09-19T18:53:19.795Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2024-09-19T18:53:19.805Z INFO  - Starting container for site
+2024-09-19T18:53:19.807Z INFO  - docker run -d --expose=8000 --name my-app_0_176c9cfd -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=my-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8000 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=my-app-eeeahfc3cdcya4gh.westeurope-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=8d9e2a936c95dd849e4c0dae43b408c0ae869fcd34aeaf84a36fa1ee3cdf62cf myapp9000.azurecr.io/myapp9000:v1 
+2024-09-19T18:53:19.808Z INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2024-09-19T18:53:22.008Z INFO  - Initiating warmup request to container my-app_0_176c9cfd_msiProxy for site my-app
+2024-09-19T18:53:22.018Z INFO  - Container my-app_0_176c9cfd_msiProxy for site my-app initialized successfully and is ready to serve requests.
+2024-09-19T18:53:22.019Z INFO  - Initiating warmup request to container my-app_0_176c9cfd for site my-app
+2024-09-19T18:53:37.502Z ERROR - Container my-app_0_176c9cfd for site my-app has exited, failing site start
+2024-09-19T18:53:37.508Z ERROR - Container my-app_0_176c9cfd didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-09-19T18:53:37.533Z INFO  - Stopping site my-app because it failed during startup.
+2024-09-19T18:54:06.203Z INFO  - Pulling image: myapp9000.azurecr.io/myapp9000:v1
+2024-09-19T18:54:06.489Z INFO  - v1 Pulling from myapp9000
+2024-09-19T18:54:06.498Z INFO  -  Digest: sha256:e6456769c268ee96b64094f3340bc59fb821ff4aed349278ea0875507afb4c78
+2024-09-19T18:54:06.499Z INFO  -  Status: Image is up to date for myapp9000.azurecr.io/myapp9000:v1
+2024-09-19T18:54:06.510Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2024-09-19T18:54:06.523Z INFO  - Starting container for site
+2024-09-19T18:54:06.524Z INFO  - docker run -d --expose=8000 --name my-app_0_9d56fc19 -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=my-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8000 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=my-app-eeeahfc3cdcya4gh.westeurope-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=8d9e2a936c95dd849e4c0dae43b408c0ae869fcd34aeaf84a36fa1ee3cdf62cf myapp9000.azurecr.io/myapp9000:v1 
+2024-09-19T18:54:06.524Z INFO  - Logging is not enabled for this container.
+Please use https://aka.ms/linux-diagnostics to enable logging to see container logs here.
+2024-09-19T18:54:15.173Z INFO  - Initiating warmup request to container my-app_0_9d56fc19_msiProxy for site my-app
+2024-09-19T18:54:15.404Z INFO  - Container my-app_0_9d56fc19_msiProxy for site my-app initialized successfully and is ready to serve requests.
+2024-09-19T18:54:15.406Z INFO  - Initiating warmup request to container my-app_0_9d56fc19 for site my-app
+2024-09-19T18:54:15.420Z ERROR - Container my-app_0_9d56fc19 for site my-app has exited, failing site start
+2024-09-19T18:54:15.425Z ERROR - Container my-app_0_9d56fc19 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-09-19T18:54:15.451Z INFO  - Stopping site my-app because it failed during startup.
+2024-09-19T18:56:29.959Z INFO  - Pulling image: myapp9000.azurecr.io/myapp9000:v1
+2024-09-19T18:56:30.202Z INFO  - v1 Pulling from myapp9000
+2024-09-19T18:56:30.208Z INFO  -  Digest: sha256:e6456769c268ee96b64094f3340bc59fb821ff4aed349278ea0875507afb4c78
+2024-09-19T18:56:30.209Z INFO  -  Status: Image is up to date for myapp9000.azurecr.io/myapp9000:v1
+2024-09-19T18:56:30.215Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2024-09-19T18:56:30.223Z INFO  - Starting container for site
+2024-09-19T18:56:30.224Z INFO  - docker run -d --expose=8000 --name my-app_0_05e33153 -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=my-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8000 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=my-app-eeeahfc3cdcya4gh.westeurope-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=8d9e2a936c95dd849e4c0dae43b408c0ae869fcd34aeaf84a36fa1ee3cdf62cf -e HTTP_LOGGING_ENABLED=1 myapp9000.azurecr.io/myapp9000:v1 
+2024-09-19T18:56:31.766Z INFO  - Initiating warmup request to container my-app_0_05e33153_msiProxy for site my-app
+2024-09-19T18:56:31.782Z INFO  - Container my-app_0_05e33153_msiProxy for site my-app initialized successfully and is ready to serve requests.
+2024-09-19T18:56:31.783Z INFO  - Initiating warmup request to container my-app_0_05e33153 for site my-app
+2024-09-19T18:56:31.795Z ERROR - Container my-app_0_05e33153 for site my-app has exited, failing site start
+2024-09-19T18:56:31.804Z ERROR - Container my-app_0_05e33153 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-09-19T18:56:31.819Z INFO  - Stopping site my-app because it failed during startup.
