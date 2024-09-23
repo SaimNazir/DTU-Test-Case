@@ -230,3 +230,16 @@ Please use https://aka.ms/linux-diagnostics to enable logging to see container l
 2024-09-19T18:56:31.795Z ERROR - Container my-app_0_05e33153 for site my-app has exited, failing site start
 2024-09-19T18:56:31.804Z ERROR - Container my-app_0_05e33153 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
 2024-09-19T18:56:31.819Z INFO  - Stopping site my-app because it failed during startup.
+2024-09-19T18:59:00.592Z INFO  - Pulling image: myapp9000.azurecr.io/myapp9000:v1
+2024-09-19T18:59:00.932Z INFO  - v1 Pulling from myapp9000
+2024-09-19T18:59:00.940Z INFO  -  Digest: sha256:e6456769c268ee96b64094f3340bc59fb821ff4aed349278ea0875507afb4c78
+2024-09-19T18:59:00.941Z INFO  -  Status: Image is up to date for myapp9000.azurecr.io/myapp9000:v1
+2024-09-19T18:59:00.947Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2024-09-19T18:59:02.212Z INFO  - Starting container for site
+2024-09-19T18:59:02.213Z INFO  - docker run -d --expose=8000 --name my-app_0_5e9e0921 -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=my-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8000 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=my-app-eeeahfc3cdcya4gh.westeurope-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=8d9e2a936c95dd849e4c0dae43b408c0ae869fcd34aeaf84a36fa1ee3cdf62cf -e HTTP_LOGGING_ENABLED=1 myapp9000.azurecr.io/myapp9000:v1 
+2024-09-19T18:59:03.513Z INFO  - Initiating warmup request to container my-app_0_5e9e0921_msiProxy for site my-app
+2024-09-19T18:59:03.524Z INFO  - Container my-app_0_5e9e0921_msiProxy for site my-app initialized successfully and is ready to serve requests.
+2024-09-19T18:59:03.525Z INFO  - Initiating warmup request to container my-app_0_5e9e0921 for site my-app
+2024-09-19T18:59:19.172Z ERROR - Container my-app_0_5e9e0921 for site my-app has exited, failing site start
+2024-09-19T18:59:19.177Z ERROR - Container my-app_0_5e9e0921 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-09-19T18:59:21.173Z INFO  - Stopping site my-app because it failed during startup.

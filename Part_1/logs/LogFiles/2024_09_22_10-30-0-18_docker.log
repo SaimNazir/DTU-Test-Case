@@ -1,0 +1,213 @@
+2024-09-22T19:01:56.6709388Z Container start method called.
+2024-09-22T19:01:56.6734338Z Establishing network.
+2024-09-22T19:01:56.6736555Z Pulling image: myapp9000.azurecr.io/myapp9000:v1.
+2024-09-22T19:02:04.8033202Z Image myapp9000.azurecr.io/myapp9000:v1 is pulled from registry myapp9000.azurecr.io
+2024-09-22T19:02:04.8036452Z Container is starting.
+2024-09-22T19:02:04.8038187Z Establishing user namespace if not established already.
+2024-09-22T19:02:04.8040314Z Establishing network if not established already.
+2024-09-22T19:02:04.8042116Z Mounting volumes.
+2024-09-22T19:02:04.8048202Z Nested mountpoint volatile/logs
+2024-09-22T19:02:04.8108055Z Nested mountpoint 
+2024-09-22T19:02:04.8248393Z Creating container.
+2024-09-22T19:02:04.8264283Z Creating pipes for streaming container io.
+2024-09-22T19:02:04.8279778Z Creating stdout named pipe at /podr/container/pipe/my-app_14d2256f/stdout_dfd3c5e3047d4375a234e26d7247876d.
+2024-09-22T19:02:04.8301381Z Successfully created stdout named pipe at: /podr/container/pipe/my-app_14d2256f/stdout_dfd3c5e3047d4375a234e26d7247876d.
+2024-09-22T19:02:04.8306380Z Opening named pipe /podr/container/pipe/my-app_14d2256f/stdout_dfd3c5e3047d4375a234e26d7247876d for reading in non-blocking mode.
+2024-09-22T19:02:04.8313158Z Successfully opened named pipe: /podr/container/pipe/my-app_14d2256f/stdout_dfd3c5e3047d4375a234e26d7247876d.
+2024-09-22T19:02:04.8336541Z Successfully removed non-blocking flag from /podr/container/pipe/my-app_14d2256f/stdout_dfd3c5e3047d4375a234e26d7247876d.
+2024-09-22T19:02:04.8668865Z Creating stderr named pipe at /podr/container/pipe/my-app_14d2256f/stderr_1fece6355c514e0598dba0e2e4dbe8f9.
+2024-09-22T19:02:04.8672235Z Successfully created stderr named pipe at: /podr/container/pipe/my-app_14d2256f/stderr_1fece6355c514e0598dba0e2e4dbe8f9.
+2024-09-22T19:02:04.8675280Z Opening named pipe /podr/container/pipe/my-app_14d2256f/stderr_1fece6355c514e0598dba0e2e4dbe8f9 for reading in non-blocking mode.
+2024-09-22T19:02:04.8677053Z Successfully opened named pipe: /podr/container/pipe/my-app_14d2256f/stderr_1fece6355c514e0598dba0e2e4dbe8f9.
+2024-09-22T19:02:04.8678855Z Successfully removed non-blocking flag from /podr/container/pipe/my-app_14d2256f/stderr_1fece6355c514e0598dba0e2e4dbe8f9.
+2024-09-22T19:02:04.8681156Z Creating container with image: myapp9000.azurecr.io/myapp9000:v1 from registry: myapp9000.azurecr.io and fully qualified image name: myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:02:07.3176606Z Starting container: my-app_14d2256f.
+2024-09-22T19:02:07.7209154Z Starting watchers and probes.
+2024-09-22T19:02:07.7586884Z Starting metrics collection.
+2024-09-22T19:02:07.7656190Z Container is running.
+2024-09-22T19:02:07.7933680Z Container start method finished after 11119 ms.
+2024-09-22T19:02:07.7947040Z Container has finished running with exit code: 2.
+2024-09-22T19:02:07.8231230Z Container is terminating. Grace period: 5 seconds.
+2024-09-22T19:02:07.8380541Z Stop and delete container. Retry count = 0
+2024-09-22T19:02:07.8401069Z Stopping container: my-app_14d2256f.
+2024-09-22T19:02:07.9554529Z Deleting container: my-app_14d2256f. Retry count = 0
+2024-09-22T19:02:08.9273236Z Container spec TerminationMessagePolicy  path 
+2024-09-22T19:02:09.1723531Z Container is terminated. Total time elapsed: 1206 ms.
+2024-09-22T19:02:09.1809895Z Site container: my-app terminated during site startup.
+2024-09-22T19:02:09.4896089Z Site startup probe failed after 1.6223203 seconds.
+2024-09-22T19:02:10.0896583Z Failed to start site. Revert by stopping site.
+2024-09-22T19:02:14.6838010Z Site container: my-app_managedIdentity terminated during site startup.
+2024-09-22T19:02:15.0774475Z ManagedIdentity container failed to startup
+2024-09-22T19:02:16.2625010Z Site: my-app stopped.
+2024-09-22T19:02:38.048Z INFO  - Pulling image: myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:02:38.363Z INFO  - v1 Pulling from myapp9000
+2024-09-22T19:02:38.386Z INFO  - a2318d6c47ec Already exists
+2024-09-22T19:02:38.409Z INFO  - 0fa26e0a6c77 Pulling fs layer
+2024-09-22T19:02:38.410Z INFO  - a657783e238b Pulling fs layer
+2024-09-22T19:02:38.411Z INFO  - b665d04ddefb Pulling fs layer
+2024-09-22T19:02:38.411Z INFO  - b71f8d04b7cc Pulling fs layer
+2024-09-22T19:02:38.412Z INFO  - 48eaca143019 Pulling fs layer
+2024-09-22T19:02:38.412Z INFO  - 2948bc527460 Pulling fs layer
+2024-09-22T19:02:38.569Z INFO  - b71f8d04b7cc Download complete
+2024-09-22T19:02:38.572Z INFO  - b665d04ddefb Downloading 251B / 251B
+2024-09-22T19:02:38.573Z INFO  - b665d04ddefb Verifying Checksum
+2024-09-22T19:02:38.574Z INFO  - b665d04ddefb Download complete
+2024-09-22T19:02:38.612Z INFO  - 48eaca143019 Downloading 19KB / 19KB
+2024-09-22T19:02:38.613Z INFO  - 48eaca143019 Verifying Checksum
+2024-09-22T19:02:38.614Z INFO  - 48eaca143019 Download complete
+2024-09-22T19:02:38.738Z INFO  - 0fa26e0a6c77 Download complete
+2024-09-22T19:02:38.776Z INFO  - a657783e238b Downloading 2MB / 14MB
+2024-09-22T19:02:38.810Z INFO  - 2948bc527460 Downloading 3MB / 3MB
+2024-09-22T19:02:38.811Z INFO  - 2948bc527460 Verifying Checksum
+2024-09-22T19:02:38.812Z INFO  - 2948bc527460 Download complete
+2024-09-22T19:02:38.914Z INFO  - a657783e238b Verifying Checksum
+2024-09-22T19:02:38.917Z INFO  - a657783e238b Download complete
+2024-09-22T19:02:39.745Z INFO  - 0fa26e0a6c77 Extracting 3MB / 3MB
+2024-09-22T19:02:39.746Z INFO  - 0fa26e0a6c77 Extracting 3MB / 3MB
+2024-09-22T19:02:39.824Z INFO  - 0fa26e0a6c77 Pull complete
+2024-09-22T19:02:40.066Z INFO  - a657783e238b Extracting 2MB / 14MB
+2024-09-22T19:02:40.674Z INFO  - a657783e238b Extracting 12MB / 14MB
+2024-09-22T19:02:40.871Z INFO  - a657783e238b Extracting 13MB / 14MB
+2024-09-22T19:02:40.992Z INFO  - a657783e238b Extracting 14MB / 14MB
+2024-09-22T19:02:40.993Z INFO  - a657783e238b Extracting 14MB / 14MB
+2024-09-22T19:02:41.055Z INFO  - a657783e238b Pull complete
+2024-09-22T19:02:41.092Z INFO  - b665d04ddefb Extracting 251B / 251B
+2024-09-22T19:02:41.133Z INFO  - b665d04ddefb Extracting 251B / 251B
+2024-09-22T19:02:41.201Z INFO  - b665d04ddefb Pull complete
+2024-09-22T19:02:41.231Z INFO  - b71f8d04b7cc Extracting 93B / 93B
+2024-09-22T19:02:41.273Z INFO  - b71f8d04b7cc Extracting 93B / 93B
+2024-09-22T19:02:41.368Z INFO  - b71f8d04b7cc Pull complete
+2024-09-22T19:02:41.402Z INFO  - 48eaca143019 Extracting 19KB / 19KB
+2024-09-22T19:02:41.512Z INFO  - 48eaca143019 Extracting 19KB / 19KB
+2024-09-22T19:02:41.570Z INFO  - 48eaca143019 Pull complete
+2024-09-22T19:02:42.482Z INFO  - 2948bc527460 Extracting 3MB / 3MB
+2024-09-22T19:02:42.555Z INFO  - 2948bc527460 Pull complete
+2024-09-22T19:02:42.593Z INFO  -  Digest: sha256:e6456769c268ee96b64094f3340bc59fb821ff4aed349278ea0875507afb4c78
+2024-09-22T19:02:42.610Z INFO  -  Status: Downloaded newer image for myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:02:42.621Z INFO  - Pull Image successful, Time taken: 4 Seconds
+2024-09-22T19:02:42.634Z INFO  - Starting container for site
+2024-09-22T19:02:42.635Z INFO  - docker run -d --expose=8000 --name my-app_0_861e940a -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=my-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8000 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=my-app-eeeahfc3cdcya4gh.westeurope-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=f7e8112d174b035dedc0e95aa90dd578d821ba1ae7596ea4277e4837d982995e -e HTTP_LOGGING_ENABLED=1 myapp9000.azurecr.io/myapp9000:v1 
+2024-09-22T19:02:44.300Z INFO  - Initiating warmup request to container my-app_0_861e940a_msiProxy for site my-app
+2024-09-22T19:02:44.310Z INFO  - Container my-app_0_861e940a_msiProxy for site my-app initialized successfully and is ready to serve requests.
+2024-09-22T19:02:44.312Z INFO  - Initiating warmup request to container my-app_0_861e940a for site my-app
+2024-09-22T19:02:44.326Z ERROR - Container my-app_0_861e940a for site my-app has exited, failing site start
+2024-09-22T19:02:44.392Z ERROR - Container my-app_0_861e940a didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-09-22T19:02:44.455Z INFO  - Stopping site my-app because it failed during startup.
+2024-09-22T19:02:59.926Z INFO  - Pulling image: myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:03:01.058Z INFO  - v1 Pulling from myapp9000
+2024-09-22T19:03:01.059Z INFO  -  Digest: sha256:e6456769c268ee96b64094f3340bc59fb821ff4aed349278ea0875507afb4c78
+2024-09-22T19:03:01.059Z INFO  -  Status: Image is up to date for myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:03:01.076Z INFO  - Pull Image successful, Time taken: 1 Seconds
+2024-09-22T19:03:01.087Z INFO  - Starting container for site
+2024-09-22T19:03:01.087Z INFO  - docker run -d --expose=8000 --name my-app_0_a0df2e8e -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=my-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8000 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=my-app-eeeahfc3cdcya4gh.westeurope-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=f7e8112d174b035dedc0e95aa90dd578d821ba1ae7596ea4277e4837d982995e -e HTTP_LOGGING_ENABLED=1 myapp9000.azurecr.io/myapp9000:v1 
+2024-09-22T19:03:02.473Z INFO  - Initiating warmup request to container my-app_0_a0df2e8e_msiProxy for site my-app
+2024-09-22T19:03:02.482Z INFO  - Container my-app_0_a0df2e8e_msiProxy for site my-app initialized successfully and is ready to serve requests.
+2024-09-22T19:03:02.483Z INFO  - Initiating warmup request to container my-app_0_a0df2e8e for site my-app
+2024-09-22T19:03:02.491Z ERROR - Container my-app_0_a0df2e8e for site my-app has exited, failing site start
+2024-09-22T19:03:02.494Z ERROR - Container my-app_0_a0df2e8e didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-09-22T19:03:02.508Z INFO  - Stopping site my-app because it failed during startup.
+2024-09-22T19:03:17.921Z INFO  - Pulling image: myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:03:18.367Z INFO  - v1 Pulling from myapp9000
+2024-09-22T19:03:18.370Z INFO  -  Digest: sha256:e6456769c268ee96b64094f3340bc59fb821ff4aed349278ea0875507afb4c78
+2024-09-22T19:03:18.370Z INFO  -  Status: Image is up to date for myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:03:18.375Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2024-09-22T19:03:18.386Z INFO  - Starting container for site
+2024-09-22T19:03:18.387Z INFO  - docker run -d --expose=8000 --name my-app_0_76960faa -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=my-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8000 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=my-app-eeeahfc3cdcya4gh.westeurope-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=f7e8112d174b035dedc0e95aa90dd578d821ba1ae7596ea4277e4837d982995e -e HTTP_LOGGING_ENABLED=1 myapp9000.azurecr.io/myapp9000:v1 
+2024-09-22T19:03:19.801Z INFO  - Initiating warmup request to container my-app_0_76960faa_msiProxy for site my-app
+2024-09-22T19:03:19.814Z INFO  - Container my-app_0_76960faa_msiProxy for site my-app initialized successfully and is ready to serve requests.
+2024-09-22T19:03:19.815Z INFO  - Initiating warmup request to container my-app_0_76960faa for site my-app
+2024-09-22T19:03:19.820Z ERROR - Container my-app_0_76960faa for site my-app has exited, failing site start
+2024-09-22T19:03:19.824Z ERROR - Container my-app_0_76960faa didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-09-22T19:03:19.834Z INFO  - Stopping site my-app because it failed during startup.
+2024-09-22T19:03:34.116Z INFO  - Pulling image: myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:03:34.403Z INFO  - v1 Pulling from myapp9000
+2024-09-22T19:03:34.404Z INFO  -  Digest: sha256:e6456769c268ee96b64094f3340bc59fb821ff4aed349278ea0875507afb4c78
+2024-09-22T19:03:34.406Z INFO  -  Status: Image is up to date for myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:03:34.412Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2024-09-22T19:03:34.424Z INFO  - Starting container for site
+2024-09-22T19:03:34.426Z INFO  - docker run -d --expose=8000 --name my-app_0_a47ddda7 -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=my-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8000 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=my-app-eeeahfc3cdcya4gh.westeurope-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=f7e8112d174b035dedc0e95aa90dd578d821ba1ae7596ea4277e4837d982995e -e HTTP_LOGGING_ENABLED=1 myapp9000.azurecr.io/myapp9000:v1 
+2024-09-22T19:03:36.724Z INFO  - Initiating warmup request to container my-app_0_a47ddda7_msiProxy for site my-app
+2024-09-22T19:03:36.752Z INFO  - Container my-app_0_a47ddda7_msiProxy for site my-app initialized successfully and is ready to serve requests.
+2024-09-22T19:03:36.752Z INFO  - Initiating warmup request to container my-app_0_a47ddda7 for site my-app
+2024-09-22T19:03:36.762Z ERROR - Container my-app_0_a47ddda7 for site my-app has exited, failing site start
+2024-09-22T19:03:36.766Z ERROR - Container my-app_0_a47ddda7 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-09-22T19:03:36.777Z INFO  - Stopping site my-app because it failed during startup.
+2024-09-22T19:05:49.326Z INFO  - Pulling image: myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:05:49.636Z INFO  - v1 Pulling from myapp9000
+2024-09-22T19:05:49.637Z INFO  -  Digest: sha256:e6456769c268ee96b64094f3340bc59fb821ff4aed349278ea0875507afb4c78
+2024-09-22T19:05:49.638Z INFO  -  Status: Image is up to date for myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:05:49.645Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2024-09-22T19:05:49.670Z INFO  - Starting container for site
+2024-09-22T19:05:49.671Z INFO  - docker run -d --expose=8000 --name my-app_0_42fdb15f -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=my-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8000 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=my-app-eeeahfc3cdcya4gh.westeurope-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=f7e8112d174b035dedc0e95aa90dd578d821ba1ae7596ea4277e4837d982995e -e HTTP_LOGGING_ENABLED=1 myapp9000.azurecr.io/myapp9000:v1 
+2024-09-22T19:05:52.600Z INFO  - Initiating warmup request to container my-app_0_42fdb15f_msiProxy for site my-app
+2024-09-22T19:05:52.609Z INFO  - Container my-app_0_42fdb15f_msiProxy for site my-app initialized successfully and is ready to serve requests.
+2024-09-22T19:05:52.610Z INFO  - Initiating warmup request to container my-app_0_42fdb15f for site my-app
+2024-09-22T19:05:52.619Z ERROR - Container my-app_0_42fdb15f for site my-app has exited, failing site start
+2024-09-22T19:05:52.623Z ERROR - Container my-app_0_42fdb15f didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-09-22T19:05:54.626Z INFO  - Stopping site my-app because it failed during startup.
+2024-09-22T19:08:20.8205030Z Container start method called.
+2024-09-22T19:08:20.8205801Z Establishing network.
+2024-09-22T19:08:20.8206806Z Pulling image: myapp9000.azurecr.io/myapp9000:v1.
+2024-09-22T19:08:21.7957608Z Container is starting.
+2024-09-22T19:08:21.7958334Z Establishing user namespace if not established already.
+2024-09-22T19:08:21.7958780Z Establishing network if not established already.
+2024-09-22T19:08:21.7959627Z Mounting volumes.
+2024-09-22T19:08:21.7961444Z Nested mountpoint volatile/logs
+2024-09-22T19:08:21.7983203Z Nested mountpoint 
+2024-09-22T19:08:21.8167278Z Creating container.
+2024-09-22T19:08:21.8168090Z Creating pipes for streaming container io.
+2024-09-22T19:08:21.8168563Z Creating stdout named pipe at /podr/container/pipe/my-app_d849955b/stdout_c9f929862001445989969541fb855083.
+2024-09-22T19:08:21.8169915Z Successfully created stdout named pipe at: /podr/container/pipe/my-app_d849955b/stdout_c9f929862001445989969541fb855083.
+2024-09-22T19:08:21.8170384Z Opening named pipe /podr/container/pipe/my-app_d849955b/stdout_c9f929862001445989969541fb855083 for reading in non-blocking mode.
+2024-09-22T19:08:21.8170969Z Successfully opened named pipe: /podr/container/pipe/my-app_d849955b/stdout_c9f929862001445989969541fb855083.
+2024-09-22T19:08:21.8171363Z Successfully removed non-blocking flag from /podr/container/pipe/my-app_d849955b/stdout_c9f929862001445989969541fb855083.
+2024-09-22T19:08:21.8171791Z Creating stderr named pipe at /podr/container/pipe/my-app_d849955b/stderr_d5417bf5795243558aa0ab085acae938.
+2024-09-22T19:08:21.8174682Z Successfully created stderr named pipe at: /podr/container/pipe/my-app_d849955b/stderr_d5417bf5795243558aa0ab085acae938.
+2024-09-22T19:08:21.8175225Z Opening named pipe /podr/container/pipe/my-app_d849955b/stderr_d5417bf5795243558aa0ab085acae938 for reading in non-blocking mode.
+2024-09-22T19:08:21.8175804Z Successfully opened named pipe: /podr/container/pipe/my-app_d849955b/stderr_d5417bf5795243558aa0ab085acae938.
+2024-09-22T19:08:21.8176285Z Successfully removed non-blocking flag from /podr/container/pipe/my-app_d849955b/stderr_d5417bf5795243558aa0ab085acae938.
+2024-09-22T19:08:21.8176719Z Creating container with image: myapp9000.azurecr.io/myapp9000:v1 from registry: myapp9000.azurecr.io and fully qualified image name: myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:08:21.9672554Z Starting container: my-app_d849955b.
+2024-09-22T19:08:21.9884884Z Starting watchers and probes.
+2024-09-22T19:08:21.9899662Z Starting metrics collection.
+2024-09-22T19:08:21.9907297Z Container is running.
+2024-09-22T19:08:22.1185354Z Container start method finished after 1297 ms.
+2024-09-22T19:08:22.1207292Z Container has finished running with exit code: 2.
+2024-09-22T19:08:22.1211243Z Container is terminating. Grace period: 5 seconds.
+2024-09-22T19:08:22.1217508Z Stop and delete container. Retry count = 0
+2024-09-22T19:08:22.1221461Z Stopping container: my-app_d849955b.
+2024-09-22T19:08:22.1442432Z Deleting container: my-app_d849955b. Retry count = 0
+2024-09-22T19:08:22.8318173Z Container spec TerminationMessagePolicy  path 
+2024-09-22T19:08:22.8326759Z Container is terminated. Total time elapsed: 711 ms.
+2024-09-22T19:08:22.8331364Z Site container: my-app terminated during site startup.
+2024-09-22T19:08:22.8337469Z Site startup probe failed after 0.7142742 seconds.
+2024-09-22T19:08:22.8354551Z Failed to start site. Revert by stopping site.
+2024-09-22T19:08:23.8227898Z Site container: my-app_managedIdentity terminated during site startup.
+2024-09-22T19:08:23.8243823Z ManagedIdentity container failed to startup
+2024-09-22T19:08:24.0000900Z Site: my-app stopped.
+2024-09-22T19:08:30.765Z INFO  - Pulling image: myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:08:31.077Z INFO  - v1 Pulling from myapp9000
+2024-09-22T19:08:31.078Z INFO  -  Digest: sha256:e6456769c268ee96b64094f3340bc59fb821ff4aed349278ea0875507afb4c78
+2024-09-22T19:08:31.078Z INFO  -  Status: Image is up to date for myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:08:31.084Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2024-09-22T19:08:31.093Z INFO  - Starting container for site
+2024-09-22T19:08:31.094Z INFO  - docker run -d --expose=8000 --name my-app_0_26ca0498 -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=my-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8000 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=my-app-eeeahfc3cdcya4gh.westeurope-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=f7e8112d174b035dedc0e95aa90dd578d821ba1ae7596ea4277e4837d982995e -e HTTP_LOGGING_ENABLED=1 myapp9000.azurecr.io/myapp9000:v1 
+2024-09-22T19:08:32.900Z INFO  - Initiating warmup request to container my-app_0_26ca0498_msiProxy for site my-app
+2024-09-22T19:08:32.908Z INFO  - Container my-app_0_26ca0498_msiProxy for site my-app initialized successfully and is ready to serve requests.
+2024-09-22T19:08:32.910Z INFO  - Initiating warmup request to container my-app_0_26ca0498 for site my-app
+2024-09-22T19:08:32.915Z ERROR - Container my-app_0_26ca0498 for site my-app has exited, failing site start
+2024-09-22T19:08:32.921Z ERROR - Container my-app_0_26ca0498 didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-09-22T19:08:33.692Z INFO  - Stopping site my-app because it failed during startup.
+2024-09-22T19:10:46.881Z INFO  - Pulling image: myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:10:47.334Z INFO  - v1 Pulling from myapp9000
+2024-09-22T19:10:47.336Z INFO  -  Digest: sha256:e6456769c268ee96b64094f3340bc59fb821ff4aed349278ea0875507afb4c78
+2024-09-22T19:10:47.336Z INFO  -  Status: Image is up to date for myapp9000.azurecr.io/myapp9000:v1
+2024-09-22T19:10:47.343Z INFO  - Pull Image successful, Time taken: 0 Seconds
+2024-09-22T19:10:47.362Z INFO  - Starting container for site
+2024-09-22T19:10:47.362Z INFO  - docker run -d --expose=8000 --name my-app_0_7ab0f94e -e WEBSITE_USE_DIAGNOSTIC_SERVER=false -e WEBSITES_ENABLE_APP_SERVICE_STORAGE=false -e WEBSITE_SITE_NAME=my-app -e WEBSITE_AUTH_ENABLED=False -e PORT=8000 -e WEBSITE_ROLE_INSTANCE_ID=0 -e WEBSITE_HOSTNAME=my-app-eeeahfc3cdcya4gh.westeurope-01.azurewebsites.net -e WEBSITE_INSTANCE_ID=f7e8112d174b035dedc0e95aa90dd578d821ba1ae7596ea4277e4837d982995e -e HTTP_LOGGING_ENABLED=1 myapp9000.azurecr.io/myapp9000:v1 
+2024-09-22T19:10:49.317Z INFO  - Initiating warmup request to container my-app_0_7ab0f94e_msiProxy for site my-app
+2024-09-22T19:10:49.324Z INFO  - Container my-app_0_7ab0f94e_msiProxy for site my-app initialized successfully and is ready to serve requests.
+2024-09-22T19:10:49.324Z INFO  - Initiating warmup request to container my-app_0_7ab0f94e for site my-app
+2024-09-22T19:10:49.331Z ERROR - Container my-app_0_7ab0f94e for site my-app has exited, failing site start
+2024-09-22T19:10:49.334Z ERROR - Container my-app_0_7ab0f94e didn't respond to HTTP pings on port: 8000, failing site start. See container logs for debugging.
+2024-09-22T19:10:49.339Z INFO  - Stopping site my-app because it failed during startup.

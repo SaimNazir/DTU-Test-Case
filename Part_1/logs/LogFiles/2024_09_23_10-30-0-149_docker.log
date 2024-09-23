@@ -1,0 +1,31 @@
+2024-09-23T08:06:54.6117057Z Container start method called.
+2024-09-23T08:06:54.6270542Z Establishing network.
+2024-09-23T08:06:54.6273798Z Pulling image: appsvc/kudulite:bullseye_20240822.2.tuxprod.
+2024-09-23T08:07:02.7046524Z Image appsvc/kudulite:bullseye_20240822.2.tuxprod is pulled from registry 10.1.0.6:13209
+2024-09-23T08:07:02.7283160Z Container is starting.
+2024-09-23T08:07:02.7284092Z Establishing user namespace if not established already.
+2024-09-23T08:07:02.7285158Z Establishing network if not established already.
+2024-09-23T08:07:02.7285687Z Mounting volumes.
+2024-09-23T08:07:02.7344687Z Nested mountpoint 
+2024-09-23T08:07:02.7458420Z Nested mountpoint volatile/logs
+2024-09-23T08:07:02.7498172Z Nested mountpoint 
+2024-09-23T08:07:02.7529703Z Nested mountpoint 
+2024-09-23T08:07:02.7608864Z Nested mountpoint 
+2024-09-23T08:07:02.7781325Z Creating container.
+2024-09-23T08:07:02.7797207Z Creating pipes for streaming container io.
+2024-09-23T08:07:02.7816085Z Creating stdout named pipe at /podr/container/pipe/my-app_kudu_30f4d5ac/stdout_361580c7cfbe40f1aef58c52ab661d53.
+2024-09-23T08:07:02.7830481Z Successfully created stdout named pipe at: /podr/container/pipe/my-app_kudu_30f4d5ac/stdout_361580c7cfbe40f1aef58c52ab661d53.
+2024-09-23T08:07:02.7846827Z Opening named pipe /podr/container/pipe/my-app_kudu_30f4d5ac/stdout_361580c7cfbe40f1aef58c52ab661d53 for reading in non-blocking mode.
+2024-09-23T08:07:02.7869215Z Successfully opened named pipe: /podr/container/pipe/my-app_kudu_30f4d5ac/stdout_361580c7cfbe40f1aef58c52ab661d53.
+2024-09-23T08:07:02.7882594Z Successfully removed non-blocking flag from /podr/container/pipe/my-app_kudu_30f4d5ac/stdout_361580c7cfbe40f1aef58c52ab661d53.
+2024-09-23T08:07:02.7883418Z Creating stderr named pipe at /podr/container/pipe/my-app_kudu_30f4d5ac/stderr_cab6c36ec134402cae3a7e021d39b609.
+2024-09-23T08:07:02.7884568Z Successfully created stderr named pipe at: /podr/container/pipe/my-app_kudu_30f4d5ac/stderr_cab6c36ec134402cae3a7e021d39b609.
+2024-09-23T08:07:02.7885064Z Opening named pipe /podr/container/pipe/my-app_kudu_30f4d5ac/stderr_cab6c36ec134402cae3a7e021d39b609 for reading in non-blocking mode.
+2024-09-23T08:07:02.7886321Z Successfully opened named pipe: /podr/container/pipe/my-app_kudu_30f4d5ac/stderr_cab6c36ec134402cae3a7e021d39b609.
+2024-09-23T08:07:02.7887002Z Successfully removed non-blocking flag from /podr/container/pipe/my-app_kudu_30f4d5ac/stderr_cab6c36ec134402cae3a7e021d39b609.
+2024-09-23T08:07:02.7892607Z Creating container with image: appsvc/kudulite:bullseye_20240822.2.tuxprod from registry: 10.1.0.6:13209 and fully qualified image name: 10.1.0.6:13209/appsvc/kudulite:bullseye_20240822.2.tuxprod
+2024-09-23T08:08:30.6201900Z Starting container: my-app_kudu_30f4d5ac.
+2024-09-23T08:08:30.7884436Z Starting watchers and probes.
+2024-09-23T08:08:30.8575839Z Starting metrics collection.
+2024-09-23T08:08:30.8638909Z Container is running.
+2024-09-23T08:08:30.9893553Z Container start method finished after 96375 ms.
